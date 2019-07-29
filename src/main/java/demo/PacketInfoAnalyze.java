@@ -15,37 +15,59 @@ public class PacketInfoAnalyze {
     private Map<Integer, Integer> packetId2Count = new TreeMap<>();
     private final static String PATTERN = "[recv|send]+\\s(\\d+)";
 
-    public static void main(String[] args) {
-        new PacketInfoAnalyze().doAnalyze(99996);
+    public static void main(String[] args) throws IOException {
+        new PacketInfoAnalyze().doAnalyze(99999, "2019-07-22");
     }
 
-    private void doAnalyze(int port) {
-        String url = createUrlByPortAndDate(port);
-        try(InputStream in = getInputStreamByUrl(url);
-            BufferedReader br = new BufferedReader(new InputStreamReader(in, "UTF-8"));
+    private void doAnalyze(int port, String datePattern) {
+
+        long time1 = System.currentTimeMillis();
+        //String url = createUrlByPortAndDate(port);
+        String url = createUrlByPortAndDate(port, datePattern);
+
+        System.out.println(url);
+        try (InputStream in = getInputStreamByUrl(url);
+             BufferedInputStream fis = new BufferedInputStream(in);
+             BufferedReader reader = new BufferedReader(new InputStreamReader(fis, "utf-8"), 5 * 10 * 1024 * 1024);// 用50M的缓冲读取文本文件
         ) {
-            String str = null;
-            while ((str = br.readLine()) != null) {
+            String str = "";
+            while ((str = reader.readLine()) != null) {
                 calcCount(str);
             }
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         printResult();
-        writeRecord();
+        writeRecord(datePattern);
+        System.out.println("the time is " + (System.currentTimeMillis() - time1) / 1000);
     }
 
     /**
      * 根据端口号和当前日期拼接URL
+     *
      * @param port
      * @return
      */
-    private  String createUrlByPortAndDate(int port) {
+    private String createUrlByPortAndDate(int port) {
+        String dateStr = getDate("yyyy-MM-dd");
+        StringBuilder sb = new StringBuilder();
+        sb.append("http://s").append(port).append(".37wan.cqs.6wtx.com:8888/log/37wan/S")
+                .append(port).append("/").append(dateStr).append("/packet.log.").append(dateStr);
+        return sb.toString();
+    }
+
+    private String getDate(String pattern) {
         Date date = new Date();
-        SimpleDateFormat sd = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat sd = new SimpleDateFormat(pattern);
+        return sd.format(date);
+    }
+
+    private String createUrlByPortAndDate(int port, String datePattern) {
+        Date date = new Date();
+        SimpleDateFormat sd = new SimpleDateFormat(datePattern);
         String dateStr = sd.format(date);
         StringBuilder sb = new StringBuilder();
-        sb.append("http://s").append(port).append(".37wan.cqs.6wtx.com:8888/system/37wan/S")
+        sb.append("http://s").append(port).append(".37wan.cqs.6wtx.com:8888/log/37wan/S")
                 .append(port).append("/").append(dateStr).append("/packet.log.").append(dateStr);
         return sb.toString();
     }
@@ -55,7 +77,7 @@ public class PacketInfoAnalyze {
      * @param urlStr
      * @return
      */
-    private InputStream getInputStreamByUrl(String urlStr){
+    private InputStream getInputStreamByUrl(String urlStr) {
         DataInputStream in = null;
         try {
             URL url = new URL(urlStr);
@@ -74,11 +96,11 @@ public class PacketInfoAnalyze {
     private void calcCount(String info) {
         Pattern pattern = Pattern.compile(PATTERN);
         Matcher matcher = pattern.matcher(info);
-        if(matcher.find()){
+        if (matcher.find()) {
             Integer packetId = Integer.valueOf(matcher.group(1));
             int preCount = packetId2Count.getOrDefault(packetId, 0);
             packetId2Count.put(packetId, ++preCount);
-        }else {
+        } else {
             System.out.println("NO MATCH!");
         }
     }
@@ -96,7 +118,7 @@ public class PacketInfoAnalyze {
             System.out.println(sb.toString());
             sb.setLength(0);
         });
-        System.out.println("Total number of message package types is"+ packetId2Count.keySet().size());
+        System.out.println("Total number of message package types is " + packetId2Count.keySet().size());
     }
 
     private String getInfo(StringBuilder sb, Map.Entry entry) {
@@ -106,13 +128,14 @@ public class PacketInfoAnalyze {
 
     /**
      * 消息包频率统计文件写入
+     *
      * @return
      */
-    private void writeRecord() {
+    private void writeRecord(String datePattern) {
         String rootPath = System.getProperty("user.dir");
-        String fileName =  "record.txt";
+        String fileName = getDate(datePattern) + "_record.txt";
         Path path = Paths.get(rootPath + File.separator + fileName);
-        try(BufferedWriter writer = Files.newBufferedWriter(path)) {
+        try (BufferedWriter writer = Files.newBufferedWriter(path)) {
             StringBuilder sb = new StringBuilder();
             packetId2Count.entrySet().stream()
                     .sorted(Map.Entry.<Integer, Integer>comparingByValue()
@@ -125,13 +148,9 @@ public class PacketInfoAnalyze {
                     e.printStackTrace();
                 }
             });
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
     }
-
-
-
-
 }
