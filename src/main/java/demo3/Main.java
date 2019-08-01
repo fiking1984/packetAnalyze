@@ -21,8 +21,8 @@ public class Main {
     private Map<Integer, Integer> packetId2Count = new TreeMap<>();
 
     public static void main(String[] args) {
-        int port = 99101;
-        String datePattern = "2019-07-24";
+        int port = 99103;
+        String datePattern = null;
         long t1 = System.currentTimeMillis();
         Main main = new Main();
         main.doAnalyze(port, datePattern);
@@ -38,12 +38,12 @@ public class Main {
         }
         CompletableFuture[] futureList = new CompletableFuture[size];
         int index = 0;
-        for (DataInfo dataInfo : dataInfoList) {
-            CompletableFuture<DataInfo> future = CompletableFuture.supplyAsync(dataInfo::doAnalyze);
+        try {
+            for (DataInfo dataInfo : dataInfoList) {
+            CompletableFuture<Void> future = CompletableFuture.supplyAsync(dataInfo::doAnalyze);
             futureList[index++] = future;
         }
-        CompletableFuture<Void> completableFuture = CompletableFuture.allOf(futureList);
-        try {
+            CompletableFuture<Void> completableFuture = CompletableFuture.allOf(futureList);
             completableFuture.get();
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
@@ -96,7 +96,7 @@ public class Main {
     }
 
     private String getInfo(StringBuilder sb, int key, int value) {
-        sb.append("packetId ").append(key).append(" : ").append("count ").append(value);
+        sb.append("packetId:").append(key).append(",").append("count:").append(value);
         return sb.toString();
     }
 }

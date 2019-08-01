@@ -36,7 +36,7 @@ public class DataInfo {
         return map;
     }
 
-    public DataInfo doAnalyze() {
+    public Void doAnalyze() {
         long t1 = System.currentTimeMillis();
         try (InputStream in = StreamUtils.getInputStreamByUrl(url);
              BufferedInputStream fis = new BufferedInputStream(in);
@@ -49,8 +49,8 @@ public class DataInfo {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println(url + "子任务耗时: " + (System.currentTimeMillis() - t1) / 1000L + " ThreadName: " + Thread.currentThread().getName());
-        return this;
+        System.out.println(url + "子任务耗时: " + (System.currentTimeMillis() - t1) / 1000L + "s ThreadName: " + Thread.currentThread().getName());
+        return null;
     }
 
     private void calcCount(String info) {
