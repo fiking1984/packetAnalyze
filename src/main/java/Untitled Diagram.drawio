@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T10:10:31.779Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ykU2457osbqitjxKvtq4" version="20.8.3" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-10-19T09:51:42.919Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="N0OrSFxXdx-AgCSDKfG0" version="21.1.1" type="github" pages="14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1848" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1645" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -2507,6 +2507,35 @@
         </mxCell>
         <mxCell id="webyihOiiJiHqN3guDSF-105" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=4;" parent="1" vertex="1">
           <mxGeometry x="2370" y="2150" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Jmu4XcBvrkZSY4UOFfeb" name="第 14 页">
+    <mxGraphModel dx="1645" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UQN6DLrFXazFPeiidvRs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UQN6DLrFXazFPeiidvRs-8" target="UQN6DLrFXazFPeiidvRs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UQN6DLrFXazFPeiidvRs-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;从设备列表中删除指定设备&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UQN6DLrFXazFPeiidvRs-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;向所有联系人的邮箱广播最新的设备列表&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="640" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UQN6DLrFXazFPeiidvRs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UQN6DLrFXazFPeiidvRs-10" target="UQN6DLrFXazFPeiidvRs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UQN6DLrFXazFPeiidvRs-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;向自己其他端的邮箱广播最新的设备列表&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UQN6DLrFXazFPeiidvRs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UQN6DLrFXazFPeiidvRs-11" target="UQN6DLrFXazFPeiidvRs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UQN6DLrFXazFPeiidvRs-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;移除本地存储的设备信息和对应密钥信息&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="140" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
