@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T11:05:55.948Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="zYHCp_I06-jSjNuhdjHS" version="21.1.1" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-10-20T02:17:26.819Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="fFS6Hm0sxQxzh2-8bkfh" version="21.1.1" type="github" pages="14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1645" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2567,6 +2567,9 @@
         </mxCell>
         <mxCell id="UQN6DLrFXazFPeiidvRs-28" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;CRDT 最终一致&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="330" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UQN6DLrFXazFPeiidvRs-29" value="存在的问题&lt;br&gt;能否移除自己当前的设备 (应该可行)&lt;br&gt;&lt;br&gt;移除的时效性问题&lt;br&gt;被移除的设备很久不上线，那么设备本地还是会一直持有密钥对，&lt;br&gt;通过邮件通知联系人也是不及时的&lt;br&gt;&lt;br&gt;移除的安全性&lt;br&gt;被移除的设备如果已经遭到恶意修改，密钥信息依旧持有，&lt;br&gt;在联系人还没有收到通知的情况下，仍能以旧身份保持通信&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="580" width="440" height="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
