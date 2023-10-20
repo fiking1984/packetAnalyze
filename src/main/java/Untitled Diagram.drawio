@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T07:12:45.475Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="LRY4yRmGL8NzQdtPA9mF" version="21.1.1" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-10-20T08:46:17.744Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="6znpxV4_YdA7TBOG3nOo" version="21.1.1" type="github" pages="14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1645" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2512,14 +2512,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jmu4XcBvrkZSY4UOFfeb" name="第 14 页">
-    <mxGraphModel dx="1645" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2097" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UQN6DLrFXazFPeiidvRs-8" target="UQN6DLrFXazFPeiidvRs-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UQN6DLrFXazFPeiidvRs-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;从设备列表中删除指定设备&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UQN6DLrFXazFPeiidvRs-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;设备a从设备列表中删除指定设备b&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="175" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UQN6DLrFXazFPeiidvRs-9" target="zNcE2PWeGDSa9tXVPUSj-10">
@@ -2540,7 +2540,7 @@
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UQN6DLrFXazFPeiidvRs-11" target="UQN6DLrFXazFPeiidvRs-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UQN6DLrFXazFPeiidvRs-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;移除本地存储的设备信息和对应密钥信息&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UQN6DLrFXazFPeiidvRs-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;a移除本地存储的设备信息和对应密钥信息&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="358" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UQN6DLrFXazFPeiidvRs-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;所有设备权限相等的情况&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
