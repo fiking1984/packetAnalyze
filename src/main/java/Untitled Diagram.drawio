@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T06:25:51.506Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="isqCp_1uv11BdXbaurAe" version="21.1.1" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-10-20T06:44:28.506Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="2i4HyZde_E7eLwE9w9Su" version="21.1.1" type="github" pages="14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1645" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2545,9 +2545,6 @@
         </mxCell>
         <mxCell id="UQN6DLrFXazFPeiidvRs-29" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;存在的问题&lt;br&gt;&lt;br&gt;(1)移除的时效性问题&lt;br&gt;被移除的设备很久不上线，那么设备本地还是会一直持有密钥对，此外，通过邮件通知联系人也是不及时的。&lt;br&gt;&lt;br&gt;(2)移除的安全性&lt;br&gt;被移除的设备如果已经遭到恶意修改，密钥信息依旧持有，在联系人还没有收到通知的情况下，仍能以旧身份保持通信。&lt;br&gt;&lt;br&gt;(3)能否移除自己当前的设备 (应该可行)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="760" y="240" width="440" height="430" as="geometry" />
-        </mxCell>
-        <mxCell id="zNcE2PWeGDSa9tXVPUSj-4" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="796" y="560" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-6" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;区分主从设备的情况&lt;br&gt;流程大致相同，前提是只有主设备才有权限移除其他设备&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="398" y="908" width="468" height="55" as="geometry" />
