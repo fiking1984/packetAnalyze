@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T08:50:47.305Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="waePGz4IRtTtPLqHXIGT" version="21.1.1" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-10-23T02:46:01.002Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="SFx-eaVClPdK1aTVUmvA" version="21.1.1" type="github" pages="14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1645" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2512,7 +2512,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jmu4XcBvrkZSY4UOFfeb" name="第 14 页">
-    <mxGraphModel dx="2097" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2097" dy="1055" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2540,7 +2540,7 @@
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UQN6DLrFXazFPeiidvRs-11" target="UQN6DLrFXazFPeiidvRs-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UQN6DLrFXazFPeiidvRs-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;a移除本地存储的设备信息和对应密钥信息&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UQN6DLrFXazFPeiidvRs-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;a标记设备b被移除&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="358" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UQN6DLrFXazFPeiidvRs-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;所有设备权限相等的情况&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -2549,13 +2549,13 @@
         <mxCell id="UQN6DLrFXazFPeiidvRs-28" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;CRDT 最终一致&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="503" y="573" width="360" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="UQN6DLrFXazFPeiidvRs-29" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;存在的问题&lt;br&gt;&lt;br&gt;(1)移除的时效性问题&lt;br&gt;被移除的设备很久不上线，那么设备本地还是会一直持有密钥对，此外，通过邮件通知联系人也是不及时的。&lt;br&gt;&lt;br&gt;(2)移除的安全性&lt;br&gt;被移除的设备如果已经遭到恶意修改，密钥信息依旧持有，在联系人还没有收到通知的情况下，仍能以旧身份保持通信。&lt;br&gt;&lt;br&gt;(3)能否移除自己当前的设备 (应该可行)&lt;br&gt;&lt;br&gt;(4)设备同一时间(或被删设备在收到邮件通知前)内互相删除，允许都被删掉&lt;br&gt;&lt;br&gt;(5)设备都移除了，允许设备列表为空的情况&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="UQN6DLrFXazFPeiidvRs-29" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;存在的问题&lt;br&gt;&lt;br&gt;(1)移除的时效性问题&lt;br&gt;被移除的设备很久不上线，那么设备本地还是会一直持有密钥对，此外，通过邮件通知联系人也是不及时的。&lt;br&gt;存在被移除的设备新加联系人的情况。&lt;br&gt;&lt;br&gt;(2)移除的安全性&lt;br&gt;被移除的设备如果已经遭到恶意修改，密钥信息依旧持有，在联系人还没有收到通知的情况下，仍能以旧身份保持通信。&lt;br&gt;&lt;br&gt;(3)能否移除自己当前的设备 (应该可行)&lt;br&gt;&lt;br&gt;(4)设备同一时间(或被删设备在收到邮件通知前)内互相删除，允许都被删掉&lt;br&gt;&lt;br&gt;(5)设备都移除了，允许设备列表为空的情况&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="760" y="240" width="440" height="430" as="geometry" />
         </mxCell>
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-6" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;区分主从设备的情况&lt;br&gt;流程大致相同，前提是只有主设备才有权限移除其他设备&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="398" y="908" width="468" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="zNcE2PWeGDSa9tXVPUSj-10" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;其他端上线收到邮件后更新设备列表删除对应&lt;br&gt;密钥信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zNcE2PWeGDSa9tXVPUSj-10" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;其他端上线收到邮件后更新设备列表，标记设备b为删除&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="17" y="634" width="140" height="90" as="geometry" />
         </mxCell>
       </root>
