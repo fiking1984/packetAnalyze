@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T07:55:47.264Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="1RAvtf-RShbEX3xz_Yqn" version="21.1.1" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-10-24T08:13:16.336Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="D8QSOJKqURI8Ar126tEA" version="21.1.1" type="github" pages="14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1645" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2579,34 +2579,34 @@
         </mxCell>
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-32" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="232.5" y="1480" as="sourcePoint" />
-            <mxPoint x="232.5" y="1510" as="targetPoint" />
+            <mxPoint x="237.5" y="1473" as="sourcePoint" />
+            <mxPoint x="237.5" y="1503" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="284.5" y="1480" />
-              <mxPoint x="297.5" y="1510" />
+              <mxPoint x="289.5" y="1473" />
+              <mxPoint x="302.5" y="1503" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-33" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="497.5" y="1480" as="sourcePoint" />
-            <mxPoint x="497.5" y="1510" as="targetPoint" />
+            <mxPoint x="500" y="1472" as="sourcePoint" />
+            <mxPoint x="500" y="1502" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="549.5" y="1480" />
-              <mxPoint x="562.5" y="1510" />
+              <mxPoint x="552" y="1472" />
+              <mxPoint x="565" y="1502" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;向自己其他端的邮箱广播最新的设备列表&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="284.5" y="1370" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zNcE2PWeGDSa9tXVPUSj-36" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;设备a&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zNcE2PWeGDSa9tXVPUSj-36" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;设备a&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="179.5" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="492.5" y="1220" width="5" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="zNcE2PWeGDSa9tXVPUSj-38" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;用户的其他设备&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zNcE2PWeGDSa9tXVPUSj-38" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;用户的其他设备&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="435" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="zNcE2PWeGDSa9tXVPUSj-17">
@@ -2631,7 +2631,7 @@
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="817.5" y="1220" width="5" height="519" as="geometry" />
         </mxCell>
-        <mxCell id="zNcE2PWeGDSa9tXVPUSj-50" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;联系人的其他设备&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zNcE2PWeGDSa9tXVPUSj-50" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;联系人的其他设备&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="760" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-51" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="zNcE2PWeGDSa9tXVPUSj-17" target="zNcE2PWeGDSa9tXVPUSj-49">
@@ -2655,7 +2655,7 @@
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-57" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;用户的其他设备&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="435" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zNcE2PWeGDSa9tXVPUSj-58" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;联系人的其他设备&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zNcE2PWeGDSa9tXVPUSj-58" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;联系人的其他设备&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="760" y="1739" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zNcE2PWeGDSa9tXVPUSj-60" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;标记设备b被移除&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
