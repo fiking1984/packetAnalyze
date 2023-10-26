@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T08:56:08.911Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="YZ9AsfeHbHcj3XrQ0qaQ" version="22.0.8" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-10-26T12:25:56.395Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="zhNzwClX1Jq3BSiUtX81" version="22.0.8" type="github" pages="14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2063" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2819,6 +2819,9 @@
         </mxCell>
         <mxCell id="cd4C7zDi22iFgSQCpFgh-37" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;用户b&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="980" y="2721" width="120" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="cd4C7zDi22iFgSQCpFgh-38" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;问题：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;添加好友前发起的邮件，数据是否要加密，加密形式？(比如简答做个对称加密？发起好友添加申请的信息里面，是否需要携带设备信息？还是等对方确认添加后再同步所有设备信息&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="2260" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
