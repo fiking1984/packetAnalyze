@@ -3816,8 +3816,8 @@
             <mxPoint x="440" y="1274" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TlElHnfFsdAbgso0EI49-1" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;1.上报PushToken&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="-39.999999999999986" y="1350" width="150" height="30" as="geometry" />
+        <mxCell id="TlElHnfFsdAbgso0EI49-1" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;1.携带PushToken&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Verdana; font-size: 16px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;请求领奖&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1350" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TlElHnfFsdAbgso0EI49-4" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;3.领取空投奖励&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="-40" y="1446" width="150" height="30" as="geometry" />
