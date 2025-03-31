@@ -3829,10 +3829,10 @@
           <mxGeometry x="390" y="1211" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TlElHnfFsdAbgso0EI49-7" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;4.发放代币奖励&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1483" width="150" height="30" as="geometry" />
+          <mxGeometry x="279" y="1480" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TlElHnfFsdAbgso0EI49-8" value="" style="image;html=1;image=img/lib/clip_art/finance/Coins_128x128.png;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1480" width="40.5" height="36" as="geometry" />
+          <mxGeometry x="394.5" y="1480" width="40.5" height="36" as="geometry" />
         </mxCell>
         <mxCell id="BIv0uaOaz_nmUKrHeZ7F-1" value="" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=4;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3862,7 +3862,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xWAHBT9Cl4aKWv2d8voq-3" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;5.查看余额&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1140" width="150" height="30" as="geometry" />
+          <mxGeometry x="285" y="1160" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
